@@ -1,13 +1,11 @@
 # Nataly AI - Official Repository
 
-Welcome to the official repository of **Silana Lite**, a WhatsApp bot built using `Baileys`, featuring many advanced capabilities.
+Welcome to the official repository of **Nataly AI**, a WhatsApp bot built using `Baileys`, featuring many advanced capabilities.
 
 ## 📌 About Me
- (Im not a developper and I didn't learn any programming languages , i know just copy and past 🤣🤣🙏❤️♥️)
-👤 **Name:** ALIALI Maoie  
-📌 **GitHub:** [aLIMW](https://github.com/Alismbot)  
+👤 **Name:** ALI Maoie  
+📌 **GitHub:** [aLIMW](https://github.com/alimaoie-us/Nataly-AI)  
 📌 **Instagram:** [@ali_mw_D](https://www.instagram.com/ali_maoie_v)  
-📌 **Facebook:** [My Facebook Profile](https://www.facebook.com/profile.php?id=100063533185520)  
 
 ## 📺 My Channels and Platforms
 
@@ -16,9 +14,6 @@ Welcome to the official repository of **Silana Lite**, a WhatsApp bot built usin
 
 📢 **My WhatsApp Channel:**  
 [Join here](https://whatsapp.com/channel/0029Vb71THB0bIdswhCzVJ0f) to stay updated on the latest news about my projects.  
-
-📢 **My Backup WhatsApp Channel:**  
-[Join here](https://whatsapp.com/channel/0029Vaz5bJz3mFY2ccGBev1n) as a backup channel in case any issues arise with the main one.  
 
 ## 🚀 About the Project
 
