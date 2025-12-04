@@ -1,4 +1,4 @@
-# Silana Lite - Official Repository
+# Nataly AI - Official Repository
 
 Welcome to the official repository of **Silana Lite**, a WhatsApp bot built using `Baileys`, featuring many advanced capabilities.
 
