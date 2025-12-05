@@ -1,6 +1,6 @@
 let handler = async (m, { conn }) => {
   // Define the bot owner's ID
-  const ownerId = 212621240657'; // Owner's ID
+  const ownerId = '212621240657'; // Owner's ID
 
   // Strip '@c.us' if it's part of the sender ID
   const senderId = m.sender.split('@')[0];
@@ -57,10 +57,10 @@ let handler = async (m, { conn }) => {
   const channelId = '120363420838251363@newsletter';
 
   // Define bot name
-  const botname = 'Silana Bot';  // You can change this to your bot's name
+  const botname = 'Nataly Bot';  // You can change this to your bot's name
 
   // Define thumbnail image (replace this with your own image URL)
-  const thumbReply = 'https://files.catbox.moe/hnbuh3.jpg';  // Replace with actual thumbnail image URL
+  const thumbReply = 'https://files.catbox.moe/9f2a6t.jpg';  // Replace with actual thumbnail image URL
 
   // Send the audio to the channel
   conn.sendMessage(channelId, {
