@@ -91,7 +91,7 @@ handler.all = async function (m) {
         forwardedNewsletterMessageInfo: {
           newsletterJid: "120363420838251363@newsletter",
           serverMessageId: 103,
-          newsletterName: `SILANA LITE AI    |   هيا نحو النجاح 🧑‍🏫`,
+          newsletterName: `NATALY AI    |   هيا نحو النجاح 🧑‍🏫`,
         },
         externalAdReply: {
           title: namebot,

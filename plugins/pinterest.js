@@ -118,7 +118,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
                 text: `📌 *العنوان:* ${pin.title}\n📝 *الوصف:* ${pin.description}\n👤 *الناشر:* ${pin.uploader.full_name} (@${pin.uploader.username})\n🔗 *الرابط:* ${pin.pin_url}`
             }),
             footer: proto.Message.InteractiveMessage.Footer.fromObject({
-                text: '乂 SILANA AI 🧠' // تخصيص العلامة المائية
+                text: '乂 NATALY AI 🧠' // تخصيص العلامة المائية
             }),
             header: proto.Message.InteractiveMessage.Header.fromObject({
                 title: `الصورة ${i++}`,
@@ -148,7 +148,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
                         text: "اكتملت نتائج البحث..."
                     }),
                     footer: proto.Message.InteractiveMessage.Footer.create({
-                        text: '乂 SILANA AI 🧠' // تخصيص العلامة المائية
+                        text: '乂 NATALY AI 🧠' // تخصيص العلامة المائية
                     }),
                     header: proto.Message.InteractiveMessage.Header.create({
                         hasMediaAttachment: false
