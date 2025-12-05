@@ -160,7 +160,7 @@ conn.sendMessage(m.chat, {
       } else if (_menu.gif) {
 
 conn.sendMessage(m.chat, {
-      video: {url: "https://files.catbox.moe/uz8dze.mp4"},
+      video: {url: "https://telegra.ph/file/ca2d038b71ff86e2c70d3.mp4"},
       gifPlayback: true,
       caption: list,
       jpegThumbnail: await conn.resize((await conn.getFile(docUrl)).data, 180, 72),
@@ -235,7 +235,7 @@ conn.sendMessage(m.chat, {
       } else if (_menu.gif) {
 
 conn.sendMessage(m.chat, {
-      video: {url: "https://files.catbox.moe/uz8dze.mp4"},
+      video: {url: "https://telegra.ph/file/ca2d038b71ff86e2c70d3.mp4"},
       gifPlayback: true,
       caption: list2,
       contextInfo: {
@@ -309,7 +309,7 @@ conn.sendMessage(m.chat, {
       } else if (_menu.gif) {
 
 conn.sendMessage(m.chat, {
-      video: {url: "https://files.catbox.moe/uz8dze.mp4"},
+      video: {url: "https://v1.pinimg.com/videos/mc/720p/a2/ee/6c/a2ee6cb3e9dd10b4c476e66785a0d39a.mp4"},
       gifPlayback: true,
       caption: all,
       contextInfo: {
