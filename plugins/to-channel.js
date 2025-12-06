@@ -39,11 +39,11 @@ async function handler(m, { conn, text }) {
             forwardedNewsletterMessageInfo: {
                 newsletterJid: idsal,
                 serverMessageId: 20,
-                newsletterName: 'nataly Ai | أسطورة البوتات '
+                newsletterName: 'NATALY AI | أسطورة البوتات '
             },
             externalAdReply: {
                 title: pushname,
-                body: `nataly runtime is active.| سيلانا رهن الاشارة`,
+                body: `NATALY runtime is active.| سيلانا رهن الاشارة`,
                 thumbnailUrl: ppuser,
                 mediaType: 1,
                 sourceUrl: 'https://whatsapp.com/channel/0029Vb71THB0bIdswhCzVJ0f'
