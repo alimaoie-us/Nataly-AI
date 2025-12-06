@@ -42,6 +42,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 };
 handler.help = ["sfull", "sticker", "sgif"];
 handler.tags = ["sticker"];
+handler.register = ["true"];
 handler.command = /^(sfull|sgif|s|sticker|stiker)$/i;
 handler.limit = 1
 export default handler;
