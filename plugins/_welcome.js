@@ -5,7 +5,7 @@ import fetch from 'node-fetch'
 export async function before(m, { conn, participants, groupMetadata }) {
   if (!m.isGroup || !m.messageStubType) return true
 
-  const dev = 'Silana'
+  const dev = 'NATALY'
   const redes = 'instagram.com/ali_maoie_v'
 
   const fkontak = {
@@ -45,7 +45,7 @@ export async function before(m, { conn, participants, groupMetadata }) {
 
   const guildName = encodeURIComponent(groupMetadata.subject)
   const apiBase = "https://api.siputzx.my.id/api/canvas"
-  const backgroundUrl = encodeURIComponent('https://files.catbox.moe/u8fmgb.jpg')
+  const backgroundUrl = encodeURIComponent('https://raw.githubusercontent.com/alimaoie-us/Nataly-AI/main/src/WM.jpg')
 
   async function fetchImage(url) {
     try {

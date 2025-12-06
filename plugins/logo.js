@@ -28,7 +28,7 @@ const handler = async (m, { conn, args, text }) => {
 
   // If no arguments are provided, show the list of available logos
   if (!text) {
-    let menu = `*🎨 SILANA LITE Logo Maker 🎨*\n\n\n`;
+    let menu = `*🎨 NATALY LR Logo Maker 🎨*\n\n\n`;
     menu += `*Available logo styles*:\n\n`;
     for (const [number, url] of Object.entries(logos)) {
       menu += `${number}. ${url.split("/").pop().replace(/-/g, " ")}\n`;
@@ -63,7 +63,7 @@ const handler = async (m, { conn, args, text }) => {
       m.chat,
       {
         image: { url: result },
-        caption: `*SILANA LITE* 🗣️✅`,
+        caption: `*NATALY LR* 🗣️✅`,
       },
       { quoted: m }
     );

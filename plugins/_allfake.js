@@ -9,8 +9,8 @@ handler.all = async function (m) {
   let name = await conn.getName(m.sender);
   let pp =
     "https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg";
-  let fotonyu = "https://files.catbox.moe/9f2a6t.jpg";
-  let logo = "https://files.catbox.moe/9f2a6t.jpg"; // define logo aquí
+  let fotonyu = "https://raw.githubusercontent.com/alimaoie-us/Nataly-AI/main/src/Nataly.jpg";
+  let logo = "https://raw.githubusercontent.com/alimaoie-us/Nataly-AI/main/src/Nataly.jpg"; // define logo aquí
   let namebot = "NATALY AI";
   let sig = "https://www.instagram.com/ali_maoie_v";
 
@@ -19,7 +19,7 @@ handler.all = async function (m) {
   } catch (e) {
     console.error(e);
   } finally {
-    global.emror = "https://files.catbox.moe/9f2a6t.jpg";
+    global.emror = "https://raw.githubusercontent.com/alimaoie-us/Nataly-AI/main/src/Nataly.jpg";
 
     global.doc = pickRandom([
       "application/vnd.ms-excel",
