@@ -1640,16 +1640,30 @@ It's detected @${participant.split(`@`)[0]} has deleted the message just now > T
 
 
 global.dfail = (type, m, conn) => {
-let tag = `@${m.sender.replace(/@.+/, '')}`
-let mentionedJid = [m.sender]
-let name = this.getName(m.sender)
+    let tag = `@${m.sender.replace(/@.+/, '')}`;
+    let mentionedJid = [m.sender];
 
-let fkon = { key: { fromMe: false, participant: `${m.sender.split`@`[0]}@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
+    // هنا استبدل this.getName بـ conn.getName
+    let name = conn.getName ? conn.getName(m.sender) : tag; // fallback للسلامة
 
-let msg = {
+    let fkon = {
+        key: {
+            fromMe: false,
+            participant: `${m.sender.split`@`[0]}@s.whatsapp.net`,
+            ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {})
+        },
+        message: {
+            contactMessage: {
+                displayName: `${name}`,
+                vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+            }
+        }
+    };
+
+    let msg = {
         premium: 'عذرًا، لا يمكن استخدام هذه الميزة إلا من قبل المستخدمين\n *Premium*',
-        group: 'هذه الميزة يمكن استخدامها في المجموعات فقط و لا يمكن استخدمها في الخاص ، ربما صاحب البوت خصص البوت ليشتغل في المجموعات فقط',       
-        private: 'لا يمكن استخدام هذه الميزة إلا في  الخاص',       
+        group: 'هذه الميزة يمكن استخدامها في المجموعات فقط و لا يمكن استخدمها في الخاص ، ربما صاحب البوت خصص البوت ليشتغل في المجموعات فقط',
+        private: 'لا يمكن استخدام هذه الميزة إلا في  الخاص',
         botAdmin: 'اجعل الروبوت مسؤولاً، ليتمكن من الوصول إلى المجموعة',
         admin: 'الميزة ستشتغل معك فقط اذا كنت أنت و البوت أدمينين في المجموعة ',
         restrict: 'لم يتم تشغيل التقييد لهذه الدردشة',
@@ -1662,27 +1676,30 @@ let msg = {
         rowner: 'ميزة خاصة للمالك الحقيقي، *المستخدمون* لا يمكنهم الوصول إليها :!',
         owner: 'الميزة خاصة بالمالك فقط، ولا يمكن *للمستخدمين* الوصول إليها:! او استخدمها ',
         mods: 'هذه الميزة للمشرفين فقط'
-        }[type]
-        
-  if (msg) return this.sendMessage(m.chat, {
-      text: msg, 
-      contextInfo: {
-      externalAdReply: {
-      title: '✖️ Y O U R  N O T  A C C E S S',
-      body: 'Who are you?',
-      thumbnailUrl: akses,
-      sourceUrl: sgc,
-      mediaType: 1,
-      renderLargerThumbnail: true
-      }}}, { quoted: fkon})
-        
-    let daftar = {
-  unreg: `\`أنت لم تسجل بعد في قاعدة البيانات. سجل فورا عن طريق الكتابة:\`
-  
-- /daftar name. age\n\n قبل ان تضغط على زر تسجيل الدخول رجاء تأكد أنك مشترك في قناتي على الواتساب \n\n https://whatsapp.com/channel/0029Vb71THB0bIdswhCzVJ0f`}[type]
-  
-  if (daftar) return this.sendUrlImageButton(m.chat, daftar, [{name: "quick_reply", buttonParamsJson: `{"display_text": "تسجيل الدخول", "id": "@verify"}`}], wm, registrasi, fkon)
+    }[type];
+
+    if (msg) return conn.sendMessage(m.chat, {
+        text: msg,
+        contextInfo: {
+            externalAdReply: {
+                title: '✖️ Y O U R  N O T  A C C E S S',
+                body: 'Who are you?',
+                thumbnailUrl: akses,
+                sourceUrl: sgc,
+                mediaType: 1,
+                renderLargerThumbnail: true
+            }
         }
+    }, { quoted: fkon });
+
+    let daftar = {
+        unreg: `\`أنت لم تسجل بعد في قاعدة البيانات. سجل فورا عن طريق الكتابة:\`
+  
+- /daftar name. age\n\n قبل ان تضغط على زر تسجيل الدخول رجاء تأكد أنك مشترك في قناتي على الواتساب \n\n https://whatsapp.com/channel/0029Vb71THB0bIdswhCzVJ0f`
+    }[type];
+
+    if (daftar) return conn.sendUrlImageButton(m.chat, daftar, [{ name: "quick_reply", buttonParamsJson: `{"display_text": "تسجيل الدخول", "id": "@verify"}` }], wm, registrasi, fkon);
+};
 
 function ucapan() {
   const time = moment.tz('Africa/Casablanca').format('HH')

@@ -279,8 +279,28 @@ async function connectionUpdate(update) {
 ◦ *الوقت المتصل*: ${new Date().toLocaleString()}\n\n قناتي على الواتساب للمزيد من المعلومات \nhttps://whatsapp.com/channel/0029Vb71THB0bIdswhCzVJ0f`;
         
         this.sendMessage(global.nomerown + `@s.whatsapp.net`, {
-            text: message
-        });
+    video: { 
+        url: "https://raw.githubusercontent.com/alimaoie-us/Nataly-AI/main/src/AI_MENU.mp4" 
+    },
+    gifPlayback: true,
+    caption: message,
+    contextInfo: {
+        isForwarded: true,
+        forwardingScore: 1,
+        forwardedNewsletterMessageInfo: {
+            newsletterJid: "120363420838251363@newsletter", // هنا معرف القناة
+            serverMessageId: 103, // يمكن تركه أي رقم أو توليده
+            newsletterName: "NATALY AI | هيا نحو النجاح 🧑‍🏫"
+        },
+        externalAdReply: {
+            title: "NATALY AI",
+            body: "اضغط هنا لمتابعة صاحب البوت",
+            thumbnailUrl: "https://raw.githubusercontent.com/alimaoie-us/Nataly-AI/main/src/Nataly.jpg",
+            mediaType: 1,
+            renderLargerThumbnail: true
+        }
+    }
+     });
         console.log(chalk.bgGreen(chalk.white('The bot is already active')));
     }
     if (connection == 'close') {
