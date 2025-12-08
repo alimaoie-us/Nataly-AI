@@ -4,8 +4,8 @@ Welcome to the official repository of **Nataly AI**, a WhatsApp bot built using 
 
 ## 📌 About Me
 👤 **Name:** ALI Maoie  
-📌 **GitHub:** [aLIMW](https://github.com/alimaoie-us/Nataly-AI)  
-📌 **Instagram:** [@ali_mw_D](https://www.instagram.com/ali_maoie_v)  
+📌 **GitHub:** [ALI DV](https://github.com/alimaoie-us/Nataly-AI)  
+📌 **Instagram:** [@Ali_maoie](https://www.instagram.com/ali_maoie_v)  
 
 ## 🎬 Demo GIF
 ![Nataly AI Demo](https://raw.githubusercontent.com/alimaoie-us/Object/main/9597983-8181576870-chain.gif)
@@ -13,7 +13,7 @@ Welcome to the official repository of **Nataly AI**, a WhatsApp bot built using 
 ## 📺 My Channels and Platforms
 
 📢 **My YouTube Channel:**  
-[Click here](link_youtube...) to watch my videos on bot development and programming projects.  
+[Click here](https://youtube.com/@newsportintern2831) to watch my videos on bot development and programming projects.  
 
 📢 **My WhatsApp Channel:**  
 [Join here](https://whatsapp.com/channel/0029Vb71THB0bIdswhCzVJ0f) to stay updated on the latest news about my projects.  
