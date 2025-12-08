@@ -1,5 +1,5 @@
 //scrape by Sxyz
-//plugin by Noureddine ouafy 
+//plugin by ALI Maoie 
 import axios from "axios";
 import FormData from "form-data";
 import * as cheerio from "cheerio";

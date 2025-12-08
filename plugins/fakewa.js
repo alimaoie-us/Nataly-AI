@@ -6,7 +6,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   if (!text || !text.includes('|')) {
     return m.reply(
       `🚩 Incorrect format.\n` +
-      `Example: ${usedPrefix}${command} Noureddine ouafy| +212717457920 | Busy\n` +
+      `Example: ${usedPrefix}${command} ALI Maoie| +212717457920 | Busy\n` +
       `Reply to the target's profile picture for a custom avatar.`
     );
   }

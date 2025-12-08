@@ -1,7 +1,7 @@
 /**
  * AI Image Modifier (img2img)
  * @package axios
- * Author: Noureddine
+ * Author: ALI
  */
 
 import axios from "axios";

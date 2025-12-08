@@ -1,7 +1,7 @@
 /**
  * ElevenLabs TTS Plugin
  * Usage: .elevenlab2 <text>
- * plugin: Noureddine ouafy
+ * plugin: ALI Maoie
  * scrape by andhikagg
  */
 
