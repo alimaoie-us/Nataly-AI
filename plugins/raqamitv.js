@@ -1,4 +1,4 @@
-//plugin by Noureddineouafy 
+//plugin by ALIMaoie 
 //edited by obito (add funtion reply with id)
 //scrape by malik
 

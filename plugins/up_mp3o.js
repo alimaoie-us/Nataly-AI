@@ -18,7 +18,7 @@ let handler = async (m, { conn, text }) => {
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: jidny,
                     serverMessageId: 2001,
-                    newsletterName: "SILANA Ai | By ALI Maoie 🔛"
+                    newsletterName: "NATALY Ai | By ALI Maoie 🔛"
                 },
                 externalAdReply: {
                     title: title,
@@ -35,7 +35,7 @@ let handler = async (m, { conn, text }) => {
 { 
     status: 200,
     success: true,
-    dev: "Nour",
+    dev: "ALI",
     jid: "${jidny}"
 }`;
         m.reply("Succefully");
