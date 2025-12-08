@@ -92,6 +92,7 @@ global.packname = info.packname
 global.author = info.author
 global.namebot = info.namebot
 global.wm = info.wm
+global.devali = info.devali
 global.stickpack = info.stickpack
 global.stickauth = info.stickauth
 
