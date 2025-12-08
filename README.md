@@ -7,7 +7,7 @@ Welcome to the official repository of **Nataly AI**, a WhatsApp bot built using 
 📌 **GitHub:** [ALI DV](https://github.com/alimaoie-us/Nataly-AI)  
 📌 **Instagram:** [@Ali_maoie](https://www.instagram.com/ali_maoie_v)  
 
-## 🎬 NATALY BOT 
+##  NATALY BOT 
 ![Nataly AI Demo](https://raw.githubusercontent.com/alimaoie-us/Object/main/9597983-8181576870-chain.gif)
 
 ## 📺 My Channels and Platforms
