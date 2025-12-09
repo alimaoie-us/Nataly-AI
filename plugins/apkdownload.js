@@ -41,7 +41,7 @@ let handler = async (m, { conn, args }) => {
                     `📅 *آخر تحديث:* ${lastup}\n` +
                     `📦 *الحزمة:* ${pkg}\n` +
                     `📏 *الحجم:* ${size}\n\n` +
-                    `> 📥 تم التحميل بواسطة Silana Bot`;
+                    `> 📥 تم التحميل بواسطة Nataly Bot`;
 
     await conn.sendMessage(m.chat, {
       document: apkBuffer,

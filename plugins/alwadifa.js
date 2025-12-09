@@ -47,7 +47,7 @@ let handler = async (m, { conn, text }) => {
                       sections: [
                         {
                           title: "📜 الوظائف المتاحة",
-                          highlight_label: "Silana Ai",
+                          highlight_label: "NATALY Ai",
                           rows: buttons,
                         },
                       ],

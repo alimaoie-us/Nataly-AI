@@ -5,7 +5,7 @@ const newsletterJid = '120363420838251363@newsletter'; // ✅ your real channel 
 const newsletterName = '⏤͟͞ू⃪፝͜⁞⟡『 NATALY Bot Channel 』࿐⟡';
 
 // ✅ Define the NATALY Bot thumbnail (you can replace the URL with your own logo)
-const icons = 'https://i.ibb.co/vzRkHqR/silana.jpg';
+const icons = 'https://i.ibb.co/wFhC0cqc/NATAly.jpg';
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
   const emoji = '🎵';
