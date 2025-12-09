@@ -21,6 +21,7 @@ global.info = {
  nameown : 'ALIMD',
  nomerown : '212621240657',
  packname : 'sticker by ',
+ devali : '657',
  author : 'NATALY AI',
  namebot : '乂 NATALY AI',
  wm : 'NATALY LITE.',
@@ -86,10 +87,6 @@ global.api = {
  prodia: '-',
  bing: '1-HLkal9xPklSXn8H_NYBhugb9UnCJKJEzQp4Rk_PxP4xxBCqtm_Os-93cXF8mtFeqde_ZGjnx2C1MM4PCS0gH8mzdX5tJ5aoaDC4G0VruZATWvvOQlHs2UBDNID5PR4MtskWzX69idiBidGDqVwfNBNZYgqb3cgqkLbyEeZnWHxxrhO3es3O8YOI5wd8Y0a31_OiLKTAzwS1ba-wvcBP9khAHrUkuQpzXuoybpwfwpQ'
 
-}
-
-global.info = {
-devali : '657'
 }
 
 global.APIs = {
